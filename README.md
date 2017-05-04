@@ -1,3 +1,7 @@
+**This is a temporary fork of axios which contains https://github.com/mzabriskie/axios/pull/565 to fix the interpretation of the no_proxy environment variable when using axios in node.js. Once the PR is merged into into axios' master, you should switch back on using the regular `axios` package.**
+
+**This package has the name `axios-no-proxy` and can be installed via `npm i axios-no-proxy`.**
+
 # axios
 
 [![npm version](https://img.shields.io/npm/v/axios.svg?style=flat-square)](https://www.npmjs.org/package/axios)
